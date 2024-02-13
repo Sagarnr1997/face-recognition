@@ -1,6 +1,18 @@
-name: dlib
+name: facial_recognition_app
 channels:
   - conda-forge
 dependencies:
-  - streamlit >= 0.73
+  - streamlit
   - dlib
+  - opencv
+  - numpy
+  - pandas
+  - requests
+  - google-auth
+  - google-auth-oauthlib
+  - google-auth-httplib2
+  - google-api-python-client
+  - Pillow
+  - CMake
+  - base64
+  - BytesIO
