@@ -16,3 +16,4 @@ dependencies:
   - CMake
   - base64
   - BytesIO
+  - json
