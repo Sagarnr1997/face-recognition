@@ -1,7 +1,0 @@
-name: facial_recognition_app
-channels:
-  - conda-forge
-dependencies:
-  - firebase-admin=5.3.0
-  - qrcode=7.3.1
-  - opencv=4.5.5
