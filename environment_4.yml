@@ -1,0 +1,8 @@
+name: facial_recognition_app
+channels:
+  - conda-forge
+dependencies:
+  - google-auth=2.6.0
+  - google-auth-oauthlib=0.4.6
+  - google-auth-httplib2=0.15.0
+  - google-api-python-client=2.32.0
