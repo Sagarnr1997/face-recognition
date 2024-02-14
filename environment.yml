@@ -1,7 +1,0 @@
-name: facial_recognition_app
-channels:
-  - conda-forge
-dependencies:
-  - python=3.9
-  - streamlit=1.5.0
-  - pillow=9.4.0
