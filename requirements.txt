@@ -10,7 +10,6 @@ google-auth-oauthlib==0.4.6
 google-auth-httplib2==0.2.0
 google-api-python-client==2.32.0
 pyproject.toml == 0.0.11
-libgl1-mesa-glx
-mesa-libGL
+libgl1-mesa-glx == i386 
 
 
