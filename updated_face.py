@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import os
 import  cv2
+import face_recognition
 import numpy as np
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -19,10 +20,6 @@ def recognize_faces(image_np):
     for top, right, bottom, left in face_locations:
         cv2.rectangle(image_np, (left, top), (right, bottom), (0, 255, 0), 2)
     return image_np
-
-
-
-
 
 # Function to display images and provide download option
 def display_images(images):
